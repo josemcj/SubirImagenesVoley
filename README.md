@@ -1,4 +1,5 @@
 # Subir Imágenes con Voley
 
-Esta aplicación sube envía imágenes desde la galería o la cámara a través de Volley, codificandolas en base64. Las envía a una API de Node.js, la cual decodifica la imagen recibida.
+Esta aplicación carga imágenes desde la galería o la cámara y las envía a una API de Node.js a través de Volley, codificandolas en base64. La API decodifica la imagen recibida y la guarda en el servidor, referenciando el nombre de la imagen en la base de datos.
+
 Implementa Material Design 3.
