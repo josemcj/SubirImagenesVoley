@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     TextInputLayout email, password;
     Button btnLogin;
     RequestQueue requestQueue;
-    String URI_LOGIN = "http://192.168.137.1:3000/api/login";
+    String URI_LOGIN = "http://TU_DOMINIO:3000/api/login";
     private ProgressDialog progressDialog;
 
     @Override
