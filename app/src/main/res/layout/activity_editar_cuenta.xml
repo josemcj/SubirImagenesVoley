@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="16dp"
+    android:gravity="center"
+    tools:context=".EditarCuentaActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/siImgUser"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="15dp"
+        app:shapeAppearanceOverlay="@style/CircleImage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_user" />
+
+    <!-- Opciones de imagen -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/btnCamara"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="Tomar una foto" />
+
+        <Button
+            android:id="@+id/btnGaleria"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar de la galeria" />
+
+    </LinearLayout>
+
+    <!-- Nombre -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="Nombre">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+
+</LinearLayout>
