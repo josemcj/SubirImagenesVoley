@@ -28,8 +28,8 @@ public class HomeActivity extends AppCompatActivity {
     RequestQueue requestQueue;
     String idUsuario;
     Button btnEditar;
-    String URI_USER = "http://192.168.137.1:3000/api/usuario/";
-    String URI_IMG_USER = "http://192.168.137.1:3000/static/images/users/";
+    String URI_USER = "http://TU_DOMINIO:3000/api/usuario/";
+    String URI_IMG_USER = "http://TU_DOMINIO:3000/static/images/users/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
