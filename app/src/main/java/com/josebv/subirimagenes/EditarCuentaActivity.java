@@ -48,9 +48,9 @@ public class EditarCuentaActivity extends AppCompatActivity {
     Button btnCamara, btnGaleria, btnActualizar;
     TextInputLayout etNombre;
     String idUsuario;
-    String URI_USER = "http://192.168.137.1:3000/api/usuario/";
-    String URI_IMG_USER = "http://192.168.137.1:3000/static/images/users/";
-    String URI_PATCH_USER = "http://192.168.137.1:3000/api/editar/";
+    String URI_USER = "http://TU_DOMINIO:3000/api/usuario/";
+    String URI_IMG_USER = "http://TU_DOMINIO:3000/static/images/users/";
+    String URI_PATCH_USER = "http://TU_DOMINIO:3000/api/editar/";
     RequestQueue requestQueue;
     Bitmap nuevaImagen;
     private ProgressDialog progressDialog;
